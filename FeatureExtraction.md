@@ -20,4 +20,8 @@ centroid较低
 5-Spectral Spread：频谱延展度，又称为频谱二阶中心矩，它描述了信号在频谱中心周围的分布状况  
 6-Spectral Entropy：谱熵，根据熵的特性可以知道，分布越均匀，熵越大，能量熵反应了每一帧信号的均匀程度，如说话人频谱由于共振峰存在显得不均匀，而白噪声的频谱就更加均匀，借此进行VAD便是应用之一  
 7-Spectral Flux：频谱通量，描述的是相邻帧频谱的变化情况  
-8-Spectral Rolloff：频谱滚降点，给出定义： 
+8-Spectral Rolloff：频谱滚降点，给出定义： Spectral rolloff is the frequency below which a specified percentage of the total spectral energy, e.g. 85%, lies.  
+9~21-MFCCs：就是大名鼎鼎的梅尔倒谱系数，这个网上资料非常多，也是非常重要的音频特征。  
+22~33-Chroma Vector：这个有12个参数，对应就是12级音阶，还是看原文解释：A 12-element representation of the spectral energy where the bins represent the 12 equal-tempered pitch classes of western-type music (semitone spacing).  
+
+34-Chroma Deviation：这个就是Chroma Vector的标准方差  
