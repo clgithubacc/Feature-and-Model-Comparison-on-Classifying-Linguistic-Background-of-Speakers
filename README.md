@@ -1,4 +1,4 @@
-# speech_pattern_based_speaker_classification
+# Feature and Model Comparison on Classifying Linguistic Background of Speakers
 
 Recordings collected by Weinberger, S. (2013). Speech accent archive. George Mason University.
 
